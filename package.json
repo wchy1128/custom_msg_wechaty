@@ -1,0 +1,42 @@
+{
+  "name": "custom_msg_wechaty",
+  "version": "1.0.0",
+  "description": "Use wechaty send custom msg to contacts",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "holderjs": "^2.9.7",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "jsviews": "^1.0.6",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1",
+    "qr-image": "^3.2.0",
+    "wechaty": "^0.38.4",
+    "wechaty-puppet-padplus": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchy1128/custom_msg_wechaty.git"
+  },
+  "keywords": [
+    "wechaty"
+  ],
+  "author": "wchy1128",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wchy1128/custom_msg_wechaty/issues"
+  },
+  "homepage": "https://github.com/wchy1128/custom_msg_wechaty#readme"
+}
